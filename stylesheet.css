@@ -1,5 +1,28 @@
-#logo {
-    color: inherit;
-    text-decoration: inherit;
-    pointer-events: none;
+/**
+body {
+    background-image: url(assets/bamboo-resized.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    **/
+
+
+ #navbar-custom {
+    background-color:gray;
 }
+
+.navbar-collapse .navbar-nav .nav-item .nav-link,
+#navbar-custom .navbar-brand {
+    color:mediumvioletred;
+    
+}
+
+#navbar-custom .navbar-brand {
+    font-family: 'Dosis', sans-serif;
+    font-size: 3vw;
+}
+
+
+.nav-item .nav-link:hover {
+    color:darkmagenta;
+}
+
