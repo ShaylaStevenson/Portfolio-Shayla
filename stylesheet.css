@@ -5,22 +5,10 @@ body {
     background-size: cover;
     **/
 
-
+/**  Start Navigation Bar Styling **/ 
  #navbar-custom {
     background-color:gray;
 }
-
-.navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: rgb(72, 40, 146);
-    font-size: 1.5vw;
-}
-
-
-.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-    color:darkmagenta;
-}
-
-
 
 #navbar-custom .navbar-brand {
     color:mediumvioletred;
@@ -28,9 +16,17 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
-
-
 .navbar-brand img {
     width: 3vw;
     height: 3vw;
 }
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: rgb(72, 40, 146);
+    font-size: 1.75vw;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color:darkmagenta;
+}
+/** End Navigation Bar Styling **/
