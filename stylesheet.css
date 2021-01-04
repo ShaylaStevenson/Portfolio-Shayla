@@ -34,15 +34,11 @@ body{
     background-color:darkmagenta;
 }
 
-.container-sm .display-1 {
+.greeting-text-box {
     background-color:lightblue;
     color:rgb(72, 40, 146);
     font-size: 5.8vw;
     text-align:end;
-    padding-right: 16px;
-    padding-left: 8px;
-    padding-top: 0px;
-    padding-bottom: 16px;
 }
 
 #custom-greeting {
@@ -65,6 +61,29 @@ main .custom-content-container .custom-content-head {
 
 .custom-content-container p {
     background-color: white;
-    color: darkslategrey;
-    
+    color: darkslategrey;   
+}
+/** End Main Content Styling **/
+
+/** Start Contact Greeting Box**/
+#contact-greeting {
+    border-color:darkmagenta;
+    border-width: 15px;
+    border-style: solid;
+    background-color:lightblue;
+    color:rgb(72, 40, 146);
+    font-size: 5.8vw;
+    text-align:end;
+}
+/** End Contact Greeting Box**/
+
+/** Start Contact Info Box**/
+#contact-box {
+    border-color:rgb(240, 149, 14);
+    border-width: 15px;
+    border-style: solid;
+    background-color:lightblue;
+    color:rgb(72, 40, 146);
+    font-size: 5.8vw;
+    text-align:end;
 }
