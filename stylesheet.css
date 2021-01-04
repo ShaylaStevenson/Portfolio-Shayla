@@ -1,19 +1,17 @@
-/**
-body {
-    background-image: url(assets/bamboo-resized.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    **/
+
+body{
+    color: rgb(72, 40, 146);
+    font-family: 'Dosis', sans-serif;
+}
 
 /**  Start Navigation Bar Styling **/ 
  #navbar-custom {
-    background-color:gray;
+    background-color:rgb(82, 139, 158);
 }
 
 #navbar-custom .navbar-brand {
-    color:mediumvioletred;
+    color:darkmagenta;
     font-size: 3vw;
-    font-family: 'Dosis', sans-serif;
 }
 
 .navbar-brand img {
@@ -27,6 +25,46 @@ body {
 }
 
 .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-    color:darkmagenta;
+    color:rgb(240, 149, 14);
 }
 /** End Navigation Bar Styling **/
+
+/** Start Greeting/Img Styling**/
+.custom-top-container {
+    background-color:darkmagenta;
+}
+
+.container-sm .display-1 {
+    background-color:lightblue;
+    color:rgb(72, 40, 146);
+    font-size: 5.8vw;
+    text-align:end;
+    padding-right: 16px;
+    padding-left: 8px;
+    padding-top: 0px;
+    padding-bottom: 16px;
+}
+
+#custom-greeting {
+    color: rgb(240, 149, 14);
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgb(72, 40, 146), 1px -1px 0 rgb(72, 40, 146), -1px 1px 0 rgb(72, 40, 146), 1px 1px 0 rgb(72, 40, 146);
+}
+/** End Greeting/Img Styling **/
+
+/** Start Main Content Styling **/
+
+main .custom-content-container .custom-content-head {
+    
+   
+}
+
+.custom-content-container {
+    background-color:rgb(240, 149, 14);
+}
+
+.custom-content-container p {
+    background-color: white;
+    color: darkslategrey;
+    
+}
