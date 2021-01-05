@@ -6,7 +6,7 @@ body{
     background-size: cover;
     font-family: 'Dosis', sans-serif;
     padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding-bottom: 12vw;
 }
 
 /**  Start Navigation Bar Styling **/ 
@@ -51,16 +51,9 @@ body{
     font-weight: bold;
     text-shadow: -1px -1px 0 rgb(72, 40, 146), 1px -1px 0 rgb(72, 40, 146), -1px 1px 0 rgb(72, 40, 146), 1px 1px 0 rgb(72, 40, 146);
 }
-
 /** End Header/Img Styling **/
 
 /** Start Main Content Styling **/
-
-main .custom-content-container .custom-content-head {
-    
-   
-}
-
 .custom-content-container {
     background-color:rgba(240, 149, 14, .5);
     
