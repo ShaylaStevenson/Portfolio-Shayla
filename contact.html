@@ -45,16 +45,45 @@
                 <h1 class="display-1 p-2 m-2" id="contact-greeting" >It would be great to hear from you</h1>
             </div>
 
-            <div class="col-sm-7 mt-2 p-2" id="contact-box">
-                <p>jkfvkdjfk</p>
+            <div class="col-sm-7 mt-2 p-2">
+                <form>
+                    <div class="form-group">
+                        <label for="emailInput">Email Address</label>
+                        <input type="email" class="form-control form-control-lg text-muted" id="emailInput" name="email" placeholder="example@email.com">
+                        <large class="form-text text-muted">Your privacy is important to me.</large>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phoneInput">Phone Number</label>
+                        <input type="tel" class="form-control form-control-lg text-muted" id="phoneInput" name="phone" placeholder="XXX-XXX-XXXX">
+                        <large class="form-text text-muted"><em>ring...ring...</em>hi</large>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="messageInput">Message</label>
+                        <textarea class="form-control" id="messageInput" rows="6" placeholder="Please provide a brief description of your web service needs. I am here to help!"></textarea>
+                        <large class="form-text text-muted">We're off to a great start!</large>
+                    </div> 
+                </form>
             </div>
         </div>
-
-        
     </section>
 
     
-    
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

@@ -1,6 +1,9 @@
 
 body{
     color: rgb(72, 40, 146);
+    background-image: url("assets/bamboo-retouched.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Dosis', sans-serif;
 }
 
@@ -11,22 +14,32 @@ body{
 
 #navbar-custom .navbar-brand {
     color:darkmagenta;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .navbar-brand img {
-    width: 3vw;
-    height: 3vw;
+    width: 4vw;
+    height: 4vw;
 }
 
 .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: rgb(72, 40, 146);
-    font-size: 1.75vw;
+    font-size: 1.5em;
 }
 
 .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
     color:rgb(240, 149, 14);
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
 /** End Navigation Bar Styling **/
 
 /** Start Greeting/Img Styling**/
@@ -46,6 +59,7 @@ body{
     font-weight: bold;
     text-shadow: -1px -1px 0 rgb(72, 40, 146), 1px -1px 0 rgb(72, 40, 146), -1px 1px 0 rgb(72, 40, 146), 1px 1px 0 rgb(72, 40, 146);
 }
+
 /** End Greeting/Img Styling **/
 
 /** Start Main Content Styling **/
@@ -56,7 +70,8 @@ main .custom-content-container .custom-content-head {
 }
 
 .custom-content-container {
-    background-color:rgb(240, 149, 14);
+    background-color:rgba(240, 149, 14, .5);
+    
 }
 
 .custom-content-container p {
@@ -86,4 +101,13 @@ main .custom-content-container .custom-content-head {
     color:rgb(72, 40, 146);
     font-size: 5.8vw;
     text-align:end;
+}
+
+.form-text {
+    text-align: end;
+}
+
+form label {
+    font-size: 1em;
+    font-weight: bolder;
 }
