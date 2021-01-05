@@ -5,6 +5,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Dosis', sans-serif;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 
 /**  Start Navigation Bar Styling **/ 
@@ -30,19 +32,9 @@ body{
 .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
     color:rgb(240, 149, 14);
 }
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 60px;
-  }
 /** End Navigation Bar Styling **/
 
-/** Start Greeting/Img Styling**/
+/** Start Header/Img Styling**/
 .custom-top-container {
     background-color:darkmagenta;
 }
@@ -60,7 +52,7 @@ body{
     text-shadow: -1px -1px 0 rgb(72, 40, 146), 1px -1px 0 rgb(72, 40, 146), -1px 1px 0 rgb(72, 40, 146), 1px 1px 0 rgb(72, 40, 146);
 }
 
-/** End Greeting/Img Styling **/
+/** End Header/Img Styling **/
 
 /** Start Main Content Styling **/
 
@@ -80,7 +72,7 @@ main .custom-content-container .custom-content-head {
 }
 /** End Main Content Styling **/
 
-/** Start Contact Greeting Box**/
+/** Start Contact Greeting Box Styling**/
 #contact-greeting {
     border-color:darkmagenta;
     border-width: 15px;
@@ -90,9 +82,9 @@ main .custom-content-container .custom-content-head {
     font-size: 5.5vw;
     text-align:end;
 }
-/** End Contact Greeting Box**/
+/** End Contact Greeting Box Styling**/
 
-/** Start Contact Info Box**/
+/** Start Contact Info Box Styling**/
 #contact-box {
     border-color:rgb(240, 149, 14);
     border-width: 15px;
@@ -107,7 +99,24 @@ main .custom-content-container .custom-content-head {
     text-align: end;
 }
 
+
 form label {
     font-size: 1em;
     font-weight: bolder;
+}
+
+/** Start Footer Styling**/
+.custom-footer {
+    background-color: lightblue;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-footer i {
+    color: rgb(72, 40, 146);
+}
+
+.custom-footer i:hover {
+    color: rgb(240, 149, 14);
 }
