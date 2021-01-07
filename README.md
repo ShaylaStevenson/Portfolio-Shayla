@@ -11,14 +11,14 @@ Use the application on your cellphone or desktop with ease.
 * Images and text resizes and aligns
 * Body covers full width of mobile device
 
-![Responsive Demo](assets/mobile.png)
+![responsive-demo](assets/mobile.png)
 
 ## Grid System
 Bootstrap's grid sytem was used as the framework for the application.
 * Find use of containers, rows, columns, and sub-columns
 * Custumization applied directly to grid through utilities in the HTML documents.
 
-![sub containers](assets\portfolio-containers.png)
+![sub-containers](assets\sub-containers.png)
 
 ## Easy Navigation
 Move around the site and visit links intuitively.
