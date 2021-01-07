@@ -3,7 +3,7 @@
 ![Site Greeting](assets/navbar-extend.png)
 
 ## Introduction
-This is a responsive portfolio designed to introduce myself, while utilizing bootstrap tools. You will find that I have heavily customized the Bootstrap 4 grid system by use of utility classes and CSS. The application should convey my personal aesthetics to the user through color, images, and other styling techniques. I hope you enjoy using the site as much I did making it!
+This is a responsive portfolio designed to introduce myself while utilizing bootstrap tools. You will find that I have heavily customized the Bootstrap 4 grid system by use of utility classes and CSS. The application should convey my personal aesthetics to the user through color, images, and other styling techniques. I hope you enjoy using the site as much I did making it!
 
 ## Responsive Design
 Use the application on your cellphone or desktop with ease.
@@ -14,9 +14,9 @@ Use the application on your cellphone or desktop with ease.
 ![responsive-demo](assets/mobile.png)
 
 ## Grid System
-Bootstrap's grid sytem was used as the framework for the application.
+Bootstrap's grid system was used as the framework for the application.
 * Find use of containers, rows, columns, and sub-columns
-* Custumization applied directly to grid through utilities in the HTML documents.
+* Customization applied directly to grid through utilities in the HTML documents.
 
 ![projects](assets/projects.png)
 
