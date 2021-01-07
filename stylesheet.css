@@ -99,7 +99,7 @@ form label {
     border-color:rgb(240, 149, 14);
     border-width: 15px;
     border-style: solid;
-    background-color:lightblue;
+    background-color:rgba(173, 216, 230, .5);
     color:rgb(72, 40, 146);
     font-size: 5.5vw;
     text-align:end;
@@ -110,19 +110,30 @@ form label {
     background-repeat: no-repeat;
     background-size: cover;     
 }
-/** End Portfolio Greeting Styling**/
+/** End Portfolio Greeting Styling   width: 100%;**/
 
-.portfolio-images {
-    background-color: ;
+/** Start Portfolio Link Figures**/
+.portfolio-project-main {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .portfolio-project-centered {
+    background-color: rgba(255, 255, 255, .7);
+    color: rgb(39, 40, 41);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.small-portfolio-images {
-    background-color: ;
+.portfolio-project-main a h1:hover,
+.portfolio-project-main a img:hover {
+    color:rgba(240, 149, 14, .5);
 }
+/** End Portfolio Link Figures**/
 
-.tiny-portfolio-images {
-    background-color: ;
-}
 /** Start Footer Styling**/
 .custom-footer {
     background-color: lightblue;
