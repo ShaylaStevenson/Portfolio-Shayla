@@ -112,7 +112,17 @@ form label {
 }
 /** End Portfolio Greeting Styling**/
 
+.portfolio-images {
+    background-color: ;
+}
 
+.small-portfolio-images {
+    background-color: ;
+}
+
+.tiny-portfolio-images {
+    background-color: ;
+}
 /** Start Footer Styling**/
 .custom-footer {
     background-color: lightblue;
