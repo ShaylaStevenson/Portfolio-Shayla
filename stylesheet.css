@@ -38,7 +38,6 @@ body{
 .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
     color:rgb(240, 149, 14);
 }
-/** End Navigation Bar Styling **/
 
 /** Start Header/Img Styling**/
 .custom-top-container {
@@ -57,7 +56,6 @@ body{
     font-weight: bold;
     text-shadow: -1px -1px 0 rgb(72, 40, 146), 1px -1px 0 rgb(72, 40, 146), -1px 1px 0 rgb(72, 40, 146), 1px 1px 0 rgb(72, 40, 146);
 }
-/** End Header/Img Styling **/
 
 /** Start Main Content Styling **/
 .custom-content-container {
@@ -69,7 +67,6 @@ body{
     background-color: white;
     color: darkslategrey;   
 }
-/** End Main Content Styling **/
 
 /** Start Contact Greeting Box Styling**/
 #contact-greeting {
@@ -81,7 +78,6 @@ body{
     font-size: 5.5vw;
     text-align:end;
 }
-/** End Contact Greeting Box Styling**/
 
 /** Start Contact Content Form Styling**/
 .form-text {
@@ -92,7 +88,18 @@ form label {
     font-size: 1em;
     font-weight: bolder;
 }
-/** End Contact Content Form Styling**/
+
+#submit-button {
+    background-color: white;
+}
+
+#submit-button:hover {
+    color:rgb(240, 149, 14);
+}
+
+#submit-button:focus {
+    color:darkmagenta;
+}
 
 /** Start Portfolio Greeting Styling**/
 #portfolio-greeting {
@@ -110,7 +117,6 @@ form label {
     background-repeat: no-repeat;
     background-size: cover;     
 }
-/** End Portfolio Greeting Styling   width: 100%;**/
 
 /** Start Portfolio Link Figures**/
 .portfolio-project-main {
@@ -132,7 +138,7 @@ form label {
 .portfolio-project-main a img:hover {
     color:rgba(240, 149, 14, .5);
 }
-/** End Portfolio Link Figures**/
+
 
 /** Start Footer Styling**/
 .custom-footer {
