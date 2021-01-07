@@ -18,7 +18,7 @@ Bootstrap's grid sytem was used as the framework for the application.
 * Find use of containers, rows, columns, and sub-columns
 * Custumization applied directly to grid through utilities in the HTML documents.
 
-![sub-containers](assets\sub-containers.png)
+![sub-containers](assets\projects.png)
 
 ## Easy Navigation
 Move around the site and visit links intuitively.
